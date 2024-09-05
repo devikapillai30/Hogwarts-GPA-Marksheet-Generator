@@ -1,7 +1,8 @@
 # Hogwarts GPA Calculator
 Welcome to the Hogwarts GPA Calculator project! This tool is designed to help wizarding students at Hogwarts School of Witchcraft and Wizardry calculate their Grade Point Average (GPA) based on the grades and credits they receive in their O.W.Ls. It provides not only a calculated GPA but also a detailed marksheet and a visual representation of academic progress.
-<img src="https://github.com/user-attachments/assets/22c83159-57dc-41e4-9005-65a655081ed9" alt="OWLS marksheet" width="400"/>
-<img src="https://github.com/user-attachments/assets/f7bfe3e4-07c2-4255-87ac-4c8dfb8e5243" alt="Hogwarts" width="400"/>
+
+<img src="https://github.com/user-attachments/assets/22c83159-57dc-41e4-9005-65a655081ed9" alt="OWLS marksheet" width="350"/>
+<img src="https://github.com/user-attachments/assets/f7bfe3e4-07c2-4255-87ac-4c8dfb8e5243" alt="Hogwarts" width="350"/>
 
 ## Project Overview
 The GPA Calculator is a function implemented in R that:
