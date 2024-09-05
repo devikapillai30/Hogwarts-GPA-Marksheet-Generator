@@ -23,13 +23,15 @@ subjects_list: A list of vectors where each vector contains:
    
 **Output**
 
-- Marksheets: A data frame containing:
+Marksheets: A data frame containing:
 1. Subject Name
 2. Credits
 3. Points achieved
 4. Grades achieved
-- GPA: The calculated Grade Point Average of the student, rounded to 2 decimal places.
-- Plot: A scatter plot showing the relationship between credits and individual GPA, with each subject represented in a different color.
+
+GPA: The calculated Grade Point Average of the student, rounded to 2 decimal places.
+
+Plot: A scatter plot showing the relationship between credits and individual GPA, with each subject represented in a different color.
 
 **Algorithm**
 
@@ -78,6 +80,7 @@ print(result$GPA)
 - Missing value in a vector:
 
 hermione <- gpa_calculator(list(c("Muggle Studies", 3, 95), c("Astronomy", 92), c("Herbology", 2, 95), c("Ancient Runes", 3, 85)))
+
 print(hermione)
 
 - Subject name is a number:
