@@ -13,22 +13,24 @@ The GPA Calculator is a function implemented in R that:
 
 ## Function Description
 gpa_calculator(subjects_list)
+
 **Parameters**
-- subjects_list: A list of vectors where each vector contains:
+subjects_list: A list of vectors where each vector contains:
 1. Subject Name (String)
 2. Credits for that subject (Numeric between 0 and 12)
 3. Points for the subject (Numeric between 0 and 100)
    
 **Output**
-- Marksheets: A data frame containing:
+Marksheets: A data frame containing:
 1. Subject Name
 2. Credits
 3. Points achieved
 4. Grades achieved
-- GPA: The calculated Grade Point Average of the student, rounded to 2 decimal places.
+GPA: The calculated Grade Point Average of the student, rounded to 2 decimal places.
 - Plot: A scatter plot showing the relationship between credits and individual GPA, with each subject represented in a different color.
 
 **Algorithm**
+
 -Input Validation:
 Checks if the input is a list and contains vectors of length 3.
 Validates that the subject name is a string, credits are between 0 and 12, and points are numeric.
